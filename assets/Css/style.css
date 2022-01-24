@@ -567,7 +567,7 @@ img{
     font-size: var(--smaller-font-size);
 }
 .services__button:hover .button__icon{
-    transform: translateY(.25rem);
+    transform: translateX(.15rem);
 }
 .services__modal{
     position: fixed;
@@ -621,7 +621,10 @@ img{
 
 /* Active Modal */
 
-
+.active-modal{
+    opacity: 1;
+    visibility: visible;
+}
 /*==================== PORTFOLIO ====================*/
 
 
